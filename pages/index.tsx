@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -41,7 +41,12 @@ export default function Home() {
           </div>
         </div>
         <div className='intro-image'>
-          <img src="/assets/images/intro-bg.jpg" alt="Фон" width='1326px' height='983px'/>
+          <img
+            src='/assets/images/intro-bg.jpg'
+            alt='Фон'
+            width='1326px'
+            height='983px'
+          />
           {/* <Image src='/assets/images/intro-bg.jpg' alt='' width={1326} height={983} layout='responsive'/> */}
         </div>
         <div className='intro-wave'>
@@ -173,7 +178,8 @@ export default function Home() {
                 />
               </div>
               <p>
-                <strong>24/7 поддержка куратора</strong> Мы всегда готовы проконсультировать по любым вопросам, на всех этапах обучения.
+                <strong>24/7 поддержка куратора</strong> Мы всегда готовы
+                проконсультировать по любым вопросам, на всех этапах обучения.
               </p>
             </li>
             <li>
@@ -450,7 +456,9 @@ export default function Home() {
               <div className='number'>06</div>
               <div className='title'>Получаете диплом</div>
               <p>
-                Смотрите онлайн лекции, в личном кабинете проходите тесты, общаетесь с кураторами и в итоге получаете удостоверение или диплом установленного образца.
+                Смотрите онлайн лекции, в личном кабинете проходите тесты,
+                общаетесь с кураторами и в итоге получаете удостоверение или
+                диплом установленного образца.
               </p>
             </li>
           </ul>
@@ -473,7 +481,7 @@ export default function Home() {
             <li className='width2'>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-1-big.jpg'
+                href='/assets/images/gallery/gallery-1-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-1-small.jpg' alt='' />
@@ -482,7 +490,7 @@ export default function Home() {
             <li>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-2-big.jpg'
+                href='/assets/images/gallery/gallery-2-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-2-small.jpg' alt='' />
@@ -491,7 +499,7 @@ export default function Home() {
             <li className='width2'>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-3-big.jpg'
+                href='/assets/images/gallery/gallery-3-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-3-small.jpg' alt='' />
@@ -500,7 +508,7 @@ export default function Home() {
             <li>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-4-big.jpg'
+                href='/assets/images/gallery/gallery-4-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-4-small.jpg' alt='' />
@@ -513,7 +521,7 @@ export default function Home() {
             <li>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-5-big.jpg'
+                href='/assets/images/gallery/gallery-5-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-5-small.jpg' alt='' />
@@ -522,7 +530,7 @@ export default function Home() {
             <li>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-6-big.jpg'
+                href='/assets/images/gallery/gallery-6-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-6-small.jpg' alt='' />
@@ -531,7 +539,7 @@ export default function Home() {
             <li>
               <a
                 className='documents-gallery-block'
-                href='images/gallery/gallery-7-big.jpg'
+                href='/assets/images/gallery/gallery-7-big.jpg'
                 data-fancybox='documents-gallery'
               >
                 <img src='/assets/images/gallery/gallery-7-small.jpg' alt='' />
@@ -916,5 +924,5 @@ export default function Home() {
         </div>
       </section>
     </>
-  );
+  )
 }
