@@ -2,6 +2,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const forms = document.querySelectorAll('form')
   const formsInputs = []
 
+  const getUtms = () => {
+    const queryString = window.location.search
+
+    const urlParams = new URLSearchParams(queryString)
+
+    const utmSource = urlParams.get('utm_source')
+    const utmMedium = urlParams.get('utm_medium')
+    const utmCampaign = urlParams.get('utm_campaign')
+    const utmContent = urlParams.get('utm_content')
+    const utmTerm = urlParams.get('utm_term')
+    const utmWorker = urlParams.get('utm_worker')
+    const utmCountry = urlParams.get('utm_country')
+
+    return {
+      utmSource,
+      utmMedium,
+      utmCampaign,
+      utmContent,
+      utmTerm,
+      utmWorker,
+      utmCountry,
+    }
+  }
+  const utms = getUtms()
+
   const appIsSentEvent = new Event('appIsSent')
   window.addEventListener('appIsSent', () => {
     dataLayer.push({ event: 'appIsSent' })
@@ -98,7 +123,15 @@ document.addEventListener('DOMContentLoaded', () => {
           name: formInputs.name.value,
           email: formInputs.email.value,
           phone: formInputs.phone.value,
+          utmSource: utms.utmSource,
+          utmMedium: utms.utmMedium,
+          utmCampaign: utms.utmCampaign,
+          utmContent: utms.utmContent,
+          utmTerm: utms.utmTerm,
+          utmWorker: utms.utmWorker,
+          utmCountry: utms.utmCountry,
         }
+        console.log(data)
         submitToEmail(data)
         disableInputs(
           formInputs.name,
