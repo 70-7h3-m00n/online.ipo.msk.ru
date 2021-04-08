@@ -15,6 +15,7 @@ class MyDocument extends Document {
           <script
             type='text/javascript'
             src='/assets/js/analitics/gtm.js'
+            async
           ></script>
         </Head>
         <body>
@@ -48,6 +49,7 @@ class MyDocument extends Document {
           <script
             type='text/javascript'
             src='/assets/js/temp/amocrmChat.js'
+            async
           ></script>
 
           <script
