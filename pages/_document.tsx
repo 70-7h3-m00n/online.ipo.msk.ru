@@ -47,6 +47,11 @@ class MyDocument extends Document {
 
           <script
             type='text/javascript'
+            src='/assets/js/temp/amocrmChat.js'
+          ></script>
+
+          <script
+            type='text/javascript'
             src='/assets/js/temp/submit.js'
           ></script>
         </body>
