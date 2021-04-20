@@ -34,7 +34,7 @@ export default function Home() {
                   Подать заявку
                 </a>
                 <div className='note'>
-                  Скидка 40% на все программы <span>до 20 апреля!</span>
+                  Скидка 40% на все программы <span>до 5 мая!</span>
                 </div>
               </div>
             </div>
