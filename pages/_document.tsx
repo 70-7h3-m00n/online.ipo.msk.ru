@@ -46,11 +46,11 @@ class MyDocument extends Document {
           ></script>
           <script type='text/javascript' src='/assets/js/myjs.js'></script>
 
-          <script
+          {/* <script
             type='text/javascript'
             src='/assets/js/temp/amocrmChat.js'
             async
-          ></script>
+          ></script> */}
 
           <script
             type='text/javascript'
