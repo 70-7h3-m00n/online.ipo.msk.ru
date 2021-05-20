@@ -7,8 +7,7 @@ export default function Home() {
         <title>Институт Профессионального Образования</title>
         <meta
           name='description'
-          content='Профессиональная переподготовка и повышение квалификации. Дистанционно в Московском институте'
-        ></meta>
+          content='Профессиональная переподготовка и повышение квалификации. Дистанционно в Московском институте'></meta>
       </Head>
       {/* intro-section */}
       <section className='intro-section'>
@@ -29,12 +28,11 @@ export default function Home() {
                   href=''
                   className='button'
                   data-src='#orderModal'
-                  data-fancybox=''
-                >
+                  data-fancybox=''>
                   Подать заявку
                 </a>
                 <div className='note'>
-                  Скидка 40% на все программы <span>до 20 мая!</span>
+                  Скидка 40% на все программы <span>до 5 июня!</span>
                 </div>
               </div>
             </div>
@@ -64,8 +62,7 @@ export default function Home() {
             <li
               className='wow fadeInRight'
               data-wow-duration='1.2s'
-              data-wow-offset='120'
-            >
+              data-wow-offset='120'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -82,8 +79,7 @@ export default function Home() {
               className='wow fadeInRight'
               data-wow-duration='1.2s'
               data-wow-offset='120'
-              data-wow-delay='0.3s'
-            >
+              data-wow-delay='0.3s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -100,8 +96,7 @@ export default function Home() {
               className='wow fadeInRight'
               data-wow-duration='1.2s'
               data-wow-offset='120'
-              data-wow-delay='0.6s'
-            >
+              data-wow-delay='0.6s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -118,8 +113,7 @@ export default function Home() {
               className='wow fadeInRight'
               data-wow-duration='1.2s'
               data-wow-offset='120'
-              data-wow-delay='0.9s'
-            >
+              data-wow-delay='0.9s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -152,8 +146,7 @@ export default function Home() {
               <div
                 className='image wow zoomIn'
                 data-wow-duration='0.8s'
-                data-wow-offset='120'
-              >
+                data-wow-offset='120'>
                 <img
                   className='lazyload'
                   data-src='/assets/images/profit-1.png'
@@ -169,8 +162,7 @@ export default function Home() {
               <div
                 className='image wow zoomIn'
                 data-wow-duration='0.8s'
-                data-wow-offset='120'
-              >
+                data-wow-offset='120'>
                 <img
                   className='lazyload'
                   data-src='/assets/images/profit-2.png'
@@ -186,8 +178,7 @@ export default function Home() {
               <div
                 className='image wow zoomIn'
                 data-wow-duration='0.8s'
-                data-wow-offset='120'
-              >
+                data-wow-offset='120'>
                 <img
                   className='lazyload'
                   data-src='/assets/images/profit-3.png'
@@ -203,8 +194,7 @@ export default function Home() {
               <div
                 className='image wow zoomIn'
                 data-wow-duration='0.8s'
-                data-wow-offset='120'
-              >
+                data-wow-offset='120'>
                 <img
                   className='lazyload'
                   data-src='/assets/images/profit-4.png'
@@ -220,8 +210,7 @@ export default function Home() {
               <div
                 className='image wow zoomIn'
                 data-wow-duration='0.8s'
-                data-wow-offset='120'
-              >
+                data-wow-offset='120'>
                 <img
                   className='lazyload'
                   data-src='/assets/images/profit-5.png'
@@ -236,8 +225,7 @@ export default function Home() {
               <div
                 className='image wow zoomIn'
                 data-wow-duration='0.8s'
-                data-wow-offset='120'
-              >
+                data-wow-offset='120'>
                 <img
                   className='lazyload'
                   data-src='/assets/images/profit-6.png'
@@ -277,8 +265,7 @@ export default function Home() {
               href=''
               className='button'
               data-src='#orderModal'
-              data-fancybox=''
-            >
+              data-fancybox=''>
               Узнать
             </a>
           </div>
@@ -388,8 +375,7 @@ export default function Home() {
             <li
               className='wow fadeInBottomRight'
               data-wow-offset='120'
-              data-wow-duration='1.4s'
-            >
+              data-wow-duration='1.4s'>
               <div className='number'>01</div>
               <div className='title'>Заявка</div>
               <p>Вы заинтересованы в обучении и оставляете заявку</p>
@@ -398,8 +384,7 @@ export default function Home() {
               className='wow fadeInBottomRight'
               data-wow-offset='120'
               data-wow-duration='1.4s'
-              data-wow-delay='0.3s'
-            >
+              data-wow-delay='0.3s'>
               <div className='number'>02</div>
               <div className='title'>Связываемся с вами</div>
               <p>
@@ -411,8 +396,7 @@ export default function Home() {
               className='wow fadeInBottomRight'
               data-wow-offset='120'
               data-wow-duration='1.4s'
-              data-wow-delay='0.6s'
-            >
+              data-wow-delay='0.6s'>
               <div className='number'>03</div>
               <div className='title'>Подбор программы</div>
               <p>
@@ -424,8 +408,7 @@ export default function Home() {
               className='wow fadeInBottomRight'
               data-wow-offset='120'
               data-wow-duration='1.4s'
-              data-wow-delay='0.9s'
-            >
+              data-wow-delay='0.9s'>
               <div className='number'>04</div>
               <div className='title'>Составление договора</div>
               <p>
@@ -437,8 +420,7 @@ export default function Home() {
               className='wow fadeInBottomRight'
               data-wow-offset='120'
               data-wow-duration='1.4s'
-              data-wow-delay='1.2s'
-            >
+              data-wow-delay='1.2s'>
               <div className='number'>05</div>
               <div className='title'>Зачисляем</div>
               <p>
@@ -451,8 +433,7 @@ export default function Home() {
               className='wow fadeInBottomRight'
               data-wow-offset='120'
               data-wow-duration='1.4s'
-              data-wow-delay='1.5s'
-            >
+              data-wow-delay='1.5s'>
               <div className='number'>06</div>
               <div className='title'>Получаете диплом</div>
               <p>
@@ -482,8 +463,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-1-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-1-small.jpg' alt='' />
               </a>
             </li>
@@ -491,8 +471,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-2-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-2-small.jpg' alt='' />
               </a>
             </li>
@@ -500,8 +479,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-3-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-3-small.jpg' alt='' />
               </a>
             </li>
@@ -509,8 +487,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-4-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-4-small.jpg' alt='' />
               </a>
             </li>
@@ -522,8 +499,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-5-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-5-small.jpg' alt='' />
               </a>
             </li>
@@ -531,8 +507,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-6-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-6-small.jpg' alt='' />
               </a>
             </li>
@@ -540,8 +515,7 @@ export default function Home() {
               <a
                 className='documents-gallery-block'
                 href='/assets/images/gallery/gallery-7-big.jpg'
-                data-fancybox='documents-gallery'
-              >
+                data-fancybox='documents-gallery'>
                 <img src='/assets/images/gallery/gallery-7-small.jpg' alt='' />
               </a>
             </li>
@@ -557,8 +531,7 @@ export default function Home() {
             href=''
             className='button blue-button'
             data-src='#orderModal'
-            data-fancybox=''
-          >
+            data-fancybox=''>
             Получить диплом
           </a>
         </div>
@@ -584,8 +557,7 @@ export default function Home() {
             <li
               className='wow fadeInLeft'
               data-wow-offset='120'
-              data-wow-duration='1.2s'
-            >
+              data-wow-duration='1.2s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -604,8 +576,7 @@ export default function Home() {
             <li
               className='wow fadeInRight'
               data-wow-offset='120'
-              data-wow-duration='1.2s'
-            >
+              data-wow-duration='1.2s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -624,8 +595,7 @@ export default function Home() {
               className='wow fadeInLeft'
               data-wow-offset='120'
               data-wow-duration='1.2s'
-              data-wow-delay='0.3s'
-            >
+              data-wow-delay='0.3s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -643,8 +613,7 @@ export default function Home() {
               className='wow fadeInRight'
               data-wow-offset='120'
               data-wow-duration='1.2s'
-              data-wow-delay='0.3s'
-            >
+              data-wow-delay='0.3s'>
               <div className='image'>
                 <img
                   className='lazyload'
@@ -708,8 +677,7 @@ export default function Home() {
             <li
               className='image wow zoomIn'
               data-wow-duration='1s'
-              data-wow-offset='200'
-            >
+              data-wow-offset='200'>
               <div className='admission-consult'>
                 <div className='note'>
                   <strong>Возникли вопросы?</strong>
@@ -719,8 +687,7 @@ export default function Home() {
                   href=''
                   className='button'
                   data-src='#orderModal'
-                  data-fancybox=''
-                >
+                  data-fancybox=''>
                   Консультация
                 </a>
               </div>
@@ -893,8 +860,7 @@ export default function Home() {
               method='post'
               className='simple-form white-form contacts-form wow fadeInLeft'
               data-wow-offset='120'
-              data-wow-duration='1.2s'
-            >
+              data-wow-duration='1.2s'>
               <div className='input-block'>
                 <input type='text' placeholder='Имя' />
               </div>
