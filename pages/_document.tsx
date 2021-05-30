@@ -6,7 +6,6 @@ class MyDocument extends Document {
   //   return { ...initialProps }
   // }
 
-  // testing dev
   render() {
     return (
       <Html lang='ru'>
