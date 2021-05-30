@@ -39,10 +39,11 @@ class MyDocument extends Document {
             src='/assets/js/jquery.fancybox.min.js'></script>
           <script type='text/javascript' src='/assets/js/myjs.js'></script>
 
-          <script
+          {/* <script
             type='text/javascript'
             src='/assets/js/temp/amocrmChat.js'
-            async></script>
+            async
+          ></script> */}
 
           <script
             type='text/javascript'
