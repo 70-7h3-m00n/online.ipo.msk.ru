@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import DynamicDicsDate from '../components/DynamicDicsDate'
 
 export default function Home() {
   return (
@@ -32,7 +33,10 @@ export default function Home() {
                   Подать заявку
                 </a>
                 <div className='note'>
-                  Скидка 40% на все программы <span>до 5 июня!</span>
+                  Скидка 40% на все программы{' '}
+                  <span>
+                    до <DynamicDicsDate />!
+                  </span>
                 </div>
               </div>
             </div>
